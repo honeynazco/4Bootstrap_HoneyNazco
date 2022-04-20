@@ -1,0 +1,20 @@
+@import "shared/variables";
+@import "shared/bsVariables";
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons+Round);
+
+body{
+    background-color: $myBody;
+}
+
+.font{
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    transition: all 200ms ease-in-out;
+
+    &:hover{
+        filter: brightness(70%);
+    }
+}
